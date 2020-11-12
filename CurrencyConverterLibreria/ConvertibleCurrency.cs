@@ -24,33 +24,33 @@ namespace CurrencyConverterLibreria
 
         public override string ToString()
         {
-            return "US$";
+            return "USD";
         }
     }
 
-    public class UKCurrency : BaseCurrency
+    public class PENCurrency : BaseCurrency
     {
         public override decimal InUS
         {
-            get { return 0.5M; }
+            get { return 3.62M; }
         }
 
         public override string ToString()
         {
-            return "UK£";
+            return "PEN";
         }
     }
 
-    public class AUSCurrency : BaseCurrency
+    public class EURCurrency : BaseCurrency
     {
         public override decimal InUS
         {
-            get { return 2; }
+            get { return 0.85M; }
         }
 
         public override string ToString()
         {
-            return "AU$";
+            return "EUR";
         }
     }
 

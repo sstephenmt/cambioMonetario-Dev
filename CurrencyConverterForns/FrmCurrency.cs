@@ -36,9 +36,9 @@ namespace CurrencyConverterForms
         {
             ArrayList currencyList = new ArrayList();
 
-            currencyList.Add(new UKCurrency());
+            currencyList.Add(new PENCurrency());
             currencyList.Add(new USCurrency());
-            currencyList.Add(new AUSCurrency());
+            currencyList.Add(new EURCurrency());
             fromCombo.DataSource = currencyList;
             toCombo.DataSource = currencyList.Clone();
         }
